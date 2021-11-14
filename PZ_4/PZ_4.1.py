@@ -9,7 +9,7 @@ b = a
 count = 1
 while True:
     try:
-        n = int(input("Введите целое число >>> "))
+        n = int(input("Введите целое число для степени >>> "))
         break
     except ValueError:
         print("Введите целое число больше нуля!")

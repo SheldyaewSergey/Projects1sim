@@ -1,10 +1,11 @@
-n = int(input("Chislo >>> "))
-b = 0
-while True:
-    b %= 10
-    n = n - b / 10
-    if b == 1 or b == 3 or b == 5 or b == 7 or b ==9:
-        print("True")
+n = input("Введите число >>> ")
+flag = False
+for i in n:
+    if not i.isdigit():
+        continue
+    a = int(i) % 2
+    if a == 1:
+        flag = True
         break
-    else:
-        print("False")
+if flag:
+    print("В числе есть нечетная цифра")
