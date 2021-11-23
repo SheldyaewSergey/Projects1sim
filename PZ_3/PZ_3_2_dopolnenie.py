@@ -1,3 +1,4 @@
+#Даны целые числа a,b,c. Необходимо найти 2 наибольших и сложить.
 def input_convert_number():
     while True:
         try:
