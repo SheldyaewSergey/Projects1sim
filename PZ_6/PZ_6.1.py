@@ -22,11 +22,11 @@ for _ in range(n):
 # Создаем список из n введенных чисел
 
 b = 0
+odd = []
 for odd in numbers:
     b += 1
     a = odd % 2
-    odd = []
     if a == 1:
         continue
     else:
-        odd = odd[b] + odd[-1]
+#TODO
