@@ -5,6 +5,6 @@
 a = {x: x**2 for x in range(7)}
 #Генерация словаря а
 print(a)
-del a[2], a[3]
+del a[1], a[2]
 #Удаление эементов 2 и 3
 print(a)
