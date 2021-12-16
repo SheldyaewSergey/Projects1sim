@@ -6,12 +6,12 @@
 
 def SortInc3(a, b, c):
     list1 = [a, b, c]
-    list1.sort()
-    print(list1)
+    print(list1.sort())
 
 
 a = int(input("Введите первое число >>>"))
 b = int(input("Введите второе число >>>"))
 c = int(input("Введите третье число >>>"))
 
-SortInc3(a, b, c)
+SortInc3()
+#ДОДЕЛАТЬ
